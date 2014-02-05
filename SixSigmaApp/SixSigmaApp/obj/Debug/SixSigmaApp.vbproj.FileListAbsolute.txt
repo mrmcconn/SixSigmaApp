@@ -1,0 +1,14 @@
+c:\users\michael\documents\visual studio 2013\Projects\SixSigmaApp\SixSigmaApp\bin\Debug\SixSigmaApp.exe.config
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\bin\Debug\SixSigmaApp.exe
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\bin\Debug\SixSigmaApp.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\bin\Debug\SixSigmaApp.xml
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\obj\Debug\SixSigmaApp.Resources.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\obj\Debug\SixSigmaApp.SixSCalculator.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\obj\Debug\SixSigmaApp.vbproj.GenerateResource.Cache
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\obj\Debug\SixSigmaApp.exe
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\obj\Debug\SixSigmaApp.xml
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\obj\Debug\SixSigmaApp.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\bin\Debug\SixSigmaApp.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\bin\Debug\SixSigmaApp.application
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\obj\Debug\SixSigmaApp.exe.manifest
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\SixSigmaApp\SixSigmaApp\obj\Debug\SixSigmaApp.application

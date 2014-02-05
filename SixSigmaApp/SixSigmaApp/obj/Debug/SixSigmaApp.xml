@@ -1,0 +1,185 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SixSigmaApp
+</name>
+</assembly>
+<members>
+<member name="P:SixSigmaApp.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:SixSigmaApp.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:SixSigmaApp.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:SixSigmaApp.SixSCalculator.SixSCalculator_Activated(System.Object,System.EventArgs)">
+	<summary>
+ Instantiates the form as well as the statistical sample.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.SixSCalculator_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+	<summary>
+ Clears relevant objects from memory.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.btnClearValues_Click(System.Object,System.EventArgs)">
+	<summary>
+ Empties the statistical sample.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.refreshControls">
+	<summary>
+ Updates fields with the appropriate values, selects the entry textbox.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.tryValueAdd(System.String)">
+	<summary>
+ Validation code for the user's entry.
+ </summary>
+	<param name="userEntry">Value entered by the user for addition to the statistical sample.</param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.validateMeanOrSigma(System.Windows.Forms.TextBox,System.String)">
+	<summary>
+ Given the user's entry for the process target or process tolerance, validates the entry.
+ </summary>
+	<param name="valueField">Text box that contians the value.</param>
+	<param name="defaultVal">Default string representation of the value.</param>
+	<returns>The contents of the textbox if the user's entry is valid, the default value if not.</returns>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.btnUpdateValues_Click(System.Object,System.EventArgs)">
+	<summary>
+ Attempts to add the value in the entry field to the statistical sample.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.txtValueToAdd_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Handles the enter key; allows the user to pass values to the statistical sample by pressing enter.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.btnRemoveOneValue_Click(System.Object,System.EventArgs)">
+	<summary>
+ If a value has been selected from the drop down list, the selected value is removed from the statistical sample.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.txtProcessTarget_LostFocus(System.Object,System.EventArgs)">
+	<summary>
+ Performs validation on the Target Mean field.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.txtProcessTolerance_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+	<summary>
+ Performs validation on the Tolerance field.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.txtProcessTolerance_LostFocus(System.Object,System.EventArgs)">
+	<summary>
+ Performs validation on the Tolerance field.
+ </summary>
+	<param name="sender"></param>
+	<param name="e"></param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.validateTargetMean">
+	<summary>
+ Performs validation on the Target Mean field.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.SixSCalculator.validateProcessTolerance">
+	<summary>
+ Performs validation on the Tolerance field.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:SixSigmaApp.StatSample.SampleSize">
+	<summary>
+ Returns the number of elements in the current sample.
+ </summary>
+	<value>This is the number of elements that have been added to the statistical sample in a string that's safe to display in a text box.</value>
+	<returns>Number of elements in the current sample.</returns>
+	<remarks></remarks>
+</member><member name="P:SixSigmaApp.StatSample.SixSigma">
+	<summary>
+ Returns the current six sigma span (twelve standard deviations) if applicable.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SixSigmaApp.StatSample.StringSixSigma">
+	<summary>
+ Returns the six sigma range (12 standard deviations,) across n-1, in a string that may be displayed in a text box.
+ </summary>
+	<value>This returns the six sigma range (12 standard deviations,) across n-1, in a string that may be displayed in a text box.</value>
+	<returns>Six sigma range, or "N/A" if no such range exists.</returns>
+	<remarks></remarks>
+</member><member name="P:SixSigmaApp.StatSample.Mean">
+	<summary>
+ Returns the mean of the sample as a double (returns 0 if the sample is empty.)
+ </summary>
+	<value>Average of the sample if applicable.</value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:SixSigmaApp.StatSample.StringMean">
+	<summary>
+ Returns the sample mean as a string that may be displayed in a text box
+ </summary>
+	<value>Returns the sample mean as a string that may be displayed in a text box.</value>
+	<returns>The sample mean, or N/A if no mean has been defined.</returns>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.StatSample.AddValue(System.Double)">
+	<summary>
+ Updates the statistical sample with the given data point.
+ </summary>
+	<param name="DataPoint">Value added to the statistical sample.</param>
+	<remarks>Consuming code is responsible for error handling and validation.</remarks>
+</member><member name="M:SixSigmaApp.StatSample.smartFormat(System.Double)">
+	<summary>
+ Converts numeric entry into usable string, formatted for significant figures.
+ </summary>
+	<param name="numericValue">Number to format.</param>
+	<returns>Number converted to string and formatted.</returns>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.StatSample.#ctor">
+	<summary>
+ Constructor.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.StatSample.Clear">
+	<summary>
+ Empties StatSample- sets sample size, mean, and six sigma to null default values.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.StatSample.RemoveValue(System.Double)">
+	<summary>
+ Removes a value from the statistical sample.
+ </summary>
+	<param name="DataPoint">Value to remove.</param>
+	<remarks></remarks>
+</member><member name="M:SixSigmaApp.StatSample.updateSampleSpecificFields">
+	<summary>
+ Sets members in the object when the sample has been updated.
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>
